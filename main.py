@@ -5,6 +5,7 @@ Purpose: Calculates stage of life for the age input
 Author: Luke Atkins
 Starter Code: No starter code used
 Date: 2/11/2026
+License: MIT
 """
 
 def get_age() -> int:
