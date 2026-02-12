@@ -1,4 +1,12 @@
 
+"""
+Name: Stage of Life Calculator
+Purpose: Calculates stage of life for the age input
+Author: Luke Atkins
+Starter Code: No starter code used
+Date 2/11/2026
+"""
+
 def get_age() -> int:
     res = input("Enter age: ")
     try:
