@@ -1,8 +1,4 @@
-<p align="center">
-    <span style='font-size:50px; font-weight:bold'>
-        Stage of Life Calculator
-    </span>
-</p>
+<h1 align="center" style="font-size:50px;">Stage of Life Calculator</h1>
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 <a href="./LICENSE">
