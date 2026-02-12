@@ -7,7 +7,7 @@ def get_age() -> int:
         print("invalid input")
         return get_age()
     
-    if res <= 0:
+    if res <= 0 or res > 200:
         print("invalid age")
         return get_age()
 
