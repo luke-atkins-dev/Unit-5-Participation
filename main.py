@@ -1,4 +1,18 @@
 
+def get_age() -> int:
+    res = input("Enter age: ")
+    try:
+        res = int(res)
+    except Exception:
+        print("invalid input")
+        return get_age()
+    
+    if res <= 0:
+        print("invalid age")
+        return get_age()
+
+    return res
+
 def main():
     pass
 
