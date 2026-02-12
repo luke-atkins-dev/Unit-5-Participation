@@ -31,7 +31,10 @@ def get_stage(age: int) -> str:
     return stage
 
 def main():
-    age = get_age
+    age = get_age()
+    stage = get_stage(age)
+    print(f'the person is a {stage}')
+    input('Enter another age? (y/n): ') == 'y' and main()
 
 if __name__ == "__main__":
     main()
