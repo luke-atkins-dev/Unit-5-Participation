@@ -13,8 +13,7 @@ def get_age() -> int:
 
     return res
 
-def main():
-    age = get_age()
+def get_stage(age: int) -> str:
     stage = ""
     if age <= 2:
         stage = 'baby'
@@ -29,7 +28,10 @@ def main():
     elif age >= 65:
         stage = 'elder'
     
-    print(stage)
+    return stage
+
+def main():
+    age = get_age
 
 if __name__ == "__main__":
     main()
